@@ -5,72 +5,99 @@ export const FrequeentlyQuestions = () => {
   return (
       <>
       <section class="FAQ__list__container">
-        <h1 class="FAQ__heading">Frequently Asked Questions</h1>
+        <h1 class="FAQ__heading">Preguntas frecuentes</h1>
         <div class="FAQ__list">
           <div class="FAQ__accordian">
             <button class="FAQ__title">
-              What is Netflix?<i class="fal fa-plus"></i>
+            ¿Qué es Netflix?<i class="fal fa-plus"></i>
             </button>
             <div class="FAQ__visible">
               <p>
-                Netflix is a streaming service that offers a wide variety of
-                award-winning TV shows, movies, anime, documentaries and more –
-                on thousands of internet-connected devices.
+              Netflix es un servicio de streaming que ofrece una gran variedad de películas,
+               series y documentales premiados en casi cualquier pantalla conectada a internet.
               </p>
               <p>
-                You can watch as much as you want, whenever you want, without a
-                single ad – all for one low monthly price. There's always
-                something new to discover, and new TV shows and movies are added
-                every week!
+              Todo lo que quieras ver, sin límites ni comerciales, a un costo muy accesible.
+                 Siempre hay algo nuevo por descubrir, ¡y todas las semanas se agregan más películas y series!
               </p>
             </div>
           </div>
           <div class="FAQ__accordian">
             <button class="FAQ__title">
-              How much does netflix cost?<i class="fal fa-plus"></i>
+            ¿Cuánto cuesta Netflix?<i class="fal fa-plus"></i>
             </button>
             <div class="FAQ__visible">
               <p>
-                Watch Netflix on your smartphone, tablet, Smart TV, laptop, or
-                streaming device, all for one fixed monthly fee. Plans range
-                from ₹ 199 to ₹ 799 a month. No extra costs, no contracts.
+            Disfruta Netflix en tu smartphone, tablet, smart TV,
+            laptop o dispositivo de streaming, todo por una tarifa
+            plana mensual. Planes desde $ 16.900 hasta $ 38.900 al mes. 
+            Sin costos adicionales ni contratos.
               </p>
             </div>
           </div>
           <div class="FAQ__accordian">
             <button class="FAQ__title">
-              Where can i watch?<i class="fal fa-plus"></i>
+            ¿Dónde puedo ver Netflix?<i class="fal fa-plus"></i>
             </button>
             <div class="FAQ__visible">
               <p>
-                Watch anywhere, anytime, on an unlimited number of devices. Sign
-                in with your Netflix account to watch instantly on the web at
-                netflix.com from your personal computer or on any
-                internet-connected device that offers the Netflix app, including
-                smart TVs, smartphones, tablets, streaming media players and
-                game consoles.
+              Disfruta donde quieras, cuando quieras. Inicia sesión en tu cuenta de 
+              Netflix para ver contenido al instante a través de netflix.com desde tu 
+              computadora personal o en cualquier dispositivo con conexión a internet que 
+              cuente con la app de Netflix, como smart TV, smartphones, tablets, 
+              reproductores multimedia y consolas de juegos.
               </p>
               <p>
-                You can also download your favourite shows with the iOS,
-                Android, or Windows 10 app. Use downloads to watch while you're
-                on the go and without an internet connection. Take Netflix with
-                you anywhere.
+              Además, puedes descargar tus series favoritas con iOS, Android o la 
+              app para Windows 10. Con la función de descarga, puedes ver donde vayas y 
+              sin conexión a internet. Lleva Netflix contigo adonde sea.
               </p>
             </div>
+            
+          </div>
+
+          <div class="FAQ__accordian">
+            <button class="FAQ__title">
+            ¿Como cancelo?<i class="fal fa-plus"></i>
+            </button>
+            <div class="FAQ__visible">
+              <p>
+              Netflix es flexible. Sin contratos molestos ni compromisos. 
+              Cancela la membresía online con solo dos clics. No hay cargos por 
+              cancelación. Empieza y termina cuando quieras.
+              </p>
+             
+            </div>
+            
+          </div>
+          <div class="FAQ__accordian">
+            <button class="FAQ__title">
+            ¿Qué puedo ver en Netflix?<i class="fal fa-plus"></i>
+            </button>
+            <div class="FAQ__visible">
+              <p>
+              Netflix tiene un amplio catálogo de películas, series, documentales, 
+              animes, originales premiados y más. Todo lo que quieras ver, 
+              cuando quieras.
+              </p>
+             
+            </div>
+            
           </div>
         </div>
+     
         <div class="FAQ__get__started__email">
           <h3>
-            Ready to watch? Enter your email to create or restart your
-            membership.
+          ¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o 
+          reiniciar tu membresía de Netflix.
           </h3>
           <div class="email__form__container">
             <div class="form__container">
               <input type="email" class="email__input" placeholder=" " />
-              <label class="email__label">Email Address</label>
+              <label class="email__label">Email</label>
             </div>
             <button class="primary__button">
-              Get Started <i class="fal fa-chevron-right"></i>
+              Comenzar <i class="fal fa-chevron-right"></i>
             </button>
           </div>
         </div>

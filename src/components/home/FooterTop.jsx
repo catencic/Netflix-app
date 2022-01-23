@@ -6,10 +6,10 @@ export const FooterTop = () => {
     {/*  <!-- Feature 1 --> */}
      <div class="feature">
        <div class="feature__details">
-         <h3 class="feature__title">Enjoy on your TV.</h3>
+         <h3 class="feature__title">Disfruta en tu TV.</h3>
          <h5 class="feature__sub__title">
-           Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
-           Blu-ray players and more.
+         Ve en smart TV, PlayStation, Xbox, Chromecast, Apple TV, reproductores
+          de Blu-ray y más.
          </h5>
        </div>
        <div class="feature__image__container">
@@ -26,7 +26,7 @@ export const FooterTop = () => {
              class="feature__backgroud__video"
            >
              <source
-               src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"
+               src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
                type="video/mp4"
              />
            </video>
@@ -37,10 +37,10 @@ export const FooterTop = () => {
      <div class="feature">
        <div class="feature__details">
          <h3 class="feature__title">
-           Download your shows to watch offline.
+         Descarga tus series para verlas offline.
          </h3>
          <h5 class="feature__sub__title">
-           Save your favourites easily and always have something to watch.
+         Guarda tu contenido favorito y tendrás siempre algo para ver.
          </h5>
        </div>
        <div class="feature__image__container">
@@ -59,7 +59,7 @@ export const FooterTop = () => {
            </div>
            <div class="poster__details">
              <h4>Stranger Things</h4>
-             <h6>Downloading...</h6>
+             <h6>Descargando...</h6>
            </div>
            <div class="download__gif__container">
              <img
@@ -74,15 +74,15 @@ export const FooterTop = () => {
      {/* <!-- Feature 3 --> */}
      <div class="feature">
        <div class="feature__details">
-         <h3 class="feature__title">Watch everywhere.</h3>
+         <h3 class="feature__title">Disfruta donde quieras.</h3>
          <h5 class="feature__sub__title">
-           Stream unlimited movies and TV shows on your phone, tablet,
-           laptop, and TV.
+         Películas y series ilimitadas en tu teléfono, tablet,
+          computadora y TV sin costo extra.
          </h5>
        </div>
        <div class="feature__image__container feature__3__image__container">
          <img
-           src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png"
+           src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png"
            alt="Feature image"
            class="feature__image feature__3__image"
          />
@@ -99,7 +99,7 @@ export const FooterTop = () => {
              class="feature__backgroud__video feature__3__backgroud__video"
            >
              <source
-               src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v"
+               src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v"
                type="video/mp4"
              />
            </video>
@@ -109,15 +109,15 @@ export const FooterTop = () => {
 {/*       <!-- Feature 4 --> */}
      <div class="feature">
        <div class="feature__details">
-         <h3 class="feature__title">Create profiles for children.</h3>
+         <h3 class="feature__title">Crea perfiles para niños.</h3>
          <h5 class="feature__sub__title">
-           Send children on adventures with their favourite characters in a
-           space made just for them—free with your membership.
+         Los niños vivirán aventuras con sus personajes favoritos en un 
+         espacio diseñado exclusivamente para ellos, sin costo con tu membresía.
          </h5>
        </div>
        <div class="feature__image__container">
          <img
-           src="https://occ-0-4023-2164.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVxdX2WnFSp49eXb1do0euaj-F8upNImjofE77XStKhf5kUHG94DPlTiGYqPeYNtiox-82NWEK0Ls3CnLe3WWClGdiJP.png?r=5cf"
+           src="https://occ-0-1016-3934.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABeLa_an51Ptz6LMzNXnM9oDvlKl4yIJQKZJRJ9fVFPpPFK5toVuo-KytXEdqPI64KCph1OKms7nLxtCsXm_CARaR50wx.png?r=8ec"
            alt="Feature image"
            class="feature__image"
          />

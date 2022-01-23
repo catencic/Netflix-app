@@ -5,32 +5,32 @@ export const FooterButton = () => {
       <>
       <footer>
       <div class="footer__row__1">
-        <h4>Questions? Call 000-800-040-1843</h4>
+        <h4>¿Preguntas? Llama al 01 800 917 1564</h4>
       </div>
       <div class="footer__row__2">
         <div class="column__1">
-          <p>FAQ</p>
-          <p>Investor Relations</p>
-          <p>Privacy</p>
-          <p>Speed Test</p>
+          <p>Preguntas frecuentes</p>
+          <p>Relaciones con inversionistas</p>
+          <p>Formas de ver</p>
+          <p>Solo en Netflix</p>
         </div>
         <div class="column__2">
-          <p>FAQ</p>
-          <p>Investor Relations</p>
-          <p>Privacy</p>
-          <p>Speed Test</p>
+          <p>Centro de ayuda</p>
+          <p>Empleo</p>
+          <p>Términos de uso</p>
+          <p>Contáctanos</p>
         </div>
         <div class="column__3">
-          <p>FAQ</p>
-          <p>Investor Relations</p>
-          <p>Privacy</p>
-          <p>Speed Test</p>
+          <p>Cuenta</p>
+          <p>Canjear tarjetas de regalo</p>
+          <p>Privacidad</p>
+          <p>Prueba de velocidad</p>
         </div>
         <div class="column__4">
-          <p>FAQ</p>
-          <p>Investor Relations</p>
-          <p>Privacy</p>
-          <p>Speed Test</p>
+          <p>Prensa</p>
+          <p>Comprar tarjetas de regalo</p>
+          <p>Preferencias de cookies</p>
+          <p>Avisos legales</p>
         </div>
       </div>
       <div class="footer__row__3">
@@ -41,8 +41,8 @@ export const FooterButton = () => {
             id="languagesSelect"
             class="language__drop__down"
           >
-            <option value="english" selected>English</option>
-            <option value="hindi">Spanish</option>
+            <option value="english" selected>Español</option>
+            <option value="hindi">Ingles</option>
           </select>
         </div>
       </div>

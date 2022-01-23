@@ -28,14 +28,14 @@ export const HomePage = () => {
                 id="languagesSelect"
                 class="language__drop__down"
               >
-                <option value="english" selected>English</option>
-                <option value="hindi">Spanish</option>
+                <option value="english" selected>Español</option>
+                <option value="hindi">Ingles</option>
               </select>
             </div>
           </div>
 
           <div class="nav__item">
-            <button class="signin__button">Sign in</button>
+            <button class="signin__button">Iniciar sesión</button>
           </div>
         </div>
       </nav>
@@ -54,22 +54,22 @@ export const HomePage = () => {
 
         <div class="hero__card">
           <h1 class="hero__title">
-            Unlimited Movies TV,<br />
-            Shows and More.
+          Películas y series,<br />
+          y mucho más.
           </h1>
-          <p class="hero__subtitle">Watch anywhere and cancel anytime.</p>
+          <p class="hero__subtitle">Disfruta donde quieras. Cancela cuando quieras.</p>
           <p class="hero__description">
-            Ready to watch? Enter your email to create or restart your
-            membership .
+          ¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta
+           o reiniciar tu membresía de Netflix.
           </p>
 
           <div class="email__form__container">
             <div class="form__container">
               <input type="email" class="email__input" placeholder=" " />
-              <label class="email__label">Email Address</label>
+              <label class="email__label">Email</label>
             </div>
             <button class="primary__button">
-              Get Started <i class="fal fa-chevron-right"></i>
+              Comenzar <i class="fal fa-chevron-right"></i>
             </button>
           </div>
         </div>
@@ -83,7 +83,7 @@ export const HomePage = () => {
 
     </main>
 
-    
+    <script src="../../helpers/script.js"></script>
     <FooterButton />
   
 
