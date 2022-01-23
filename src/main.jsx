@@ -1,6 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { HomePage } from './components/home/HomePage'
+//import { HomePage } from './components/home/HomePage'
+
+import { LoginScreean } from './components/auth/LoginScreean'
 
 import './index.css'
 
@@ -8,7 +10,7 @@ import './index.css'
 
 ReactDOM.render(
 
-    <HomePage />
+    <LoginScreean />
   ,
   document.getElementById('root')
 )

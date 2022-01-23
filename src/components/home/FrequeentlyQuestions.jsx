@@ -4,14 +4,14 @@ import React from 'react';
 export const FrequeentlyQuestions = () => {
   return (
       <>
-      <section class="FAQ__list__container">
-        <h1 class="FAQ__heading">Preguntas frecuentes</h1>
-        <div class="FAQ__list">
-          <div class="FAQ__accordian">
-            <button class="FAQ__title">
-            ¿Qué es Netflix?<i class="fal fa-plus"></i>
+      <section className="FAQ__list__container">
+        <h1 className="FAQ__heading">Preguntas frecuentes</h1>
+        <div className="FAQ__list">
+          <div className="FAQ__accordian">
+            <button className="FAQ__title">
+            ¿Qué es Netflix?<i className="fal fa-plus"></i>
             </button>
-            <div class="FAQ__visible">
+            <div className="FAQ__visible">
               <p>
               Netflix es un servicio de streaming que ofrece una gran variedad de películas,
                series y documentales premiados en casi cualquier pantalla conectada a internet.
@@ -22,11 +22,11 @@ export const FrequeentlyQuestions = () => {
               </p>
             </div>
           </div>
-          <div class="FAQ__accordian">
-            <button class="FAQ__title">
-            ¿Cuánto cuesta Netflix?<i class="fal fa-plus"></i>
+          <div className="FAQ__accordian">
+            <button className="FAQ__title">
+            ¿Cuánto cuesta Netflix?<i className="fal fa-plus"></i>
             </button>
-            <div class="FAQ__visible">
+            <div className="FAQ__visible">
               <p>
             Disfruta Netflix en tu smartphone, tablet, smart TV,
             laptop o dispositivo de streaming, todo por una tarifa
@@ -35,11 +35,11 @@ export const FrequeentlyQuestions = () => {
               </p>
             </div>
           </div>
-          <div class="FAQ__accordian">
-            <button class="FAQ__title">
-            ¿Dónde puedo ver Netflix?<i class="fal fa-plus"></i>
+          <div className="FAQ__accordian">
+            <button className="FAQ__title">
+            ¿Dónde puedo ver Netflix?<i className="fal fa-plus"></i>
             </button>
-            <div class="FAQ__visible">
+            <div className="FAQ__visible">
               <p>
               Disfruta donde quieras, cuando quieras. Inicia sesión en tu cuenta de 
               Netflix para ver contenido al instante a través de netflix.com desde tu 
@@ -56,11 +56,11 @@ export const FrequeentlyQuestions = () => {
             
           </div>
 
-          <div class="FAQ__accordian">
-            <button class="FAQ__title">
-            ¿Como cancelo?<i class="fal fa-plus"></i>
+          <div className="FAQ__accordian">
+            <button className="FAQ__title">
+            ¿Como cancelo?<i className="fal fa-plus"></i>
             </button>
-            <div class="FAQ__visible">
+            <div className="FAQ__visible">
               <p>
               Netflix es flexible. Sin contratos molestos ni compromisos. 
               Cancela la membresía online con solo dos clics. No hay cargos por 
@@ -70,11 +70,11 @@ export const FrequeentlyQuestions = () => {
             </div>
             
           </div>
-          <div class="FAQ__accordian">
-            <button class="FAQ__title">
-            ¿Qué puedo ver en Netflix?<i class="fal fa-plus"></i>
+          <div className="FAQ__accordian">
+            <button className="FAQ__title">
+            ¿Qué puedo ver en Netflix?<i className="fal fa-plus"></i>
             </button>
-            <div class="FAQ__visible">
+            <div className="FAQ__visible">
               <p>
               Netflix tiene un amplio catálogo de películas, series, documentales, 
               animes, originales premiados y más. Todo lo que quieras ver, 
@@ -86,18 +86,18 @@ export const FrequeentlyQuestions = () => {
           </div>
         </div>
      
-        <div class="FAQ__get__started__email">
+        <div className="FAQ__get__started__email">
           <h3>
           ¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o 
           reiniciar tu membresía de Netflix.
           </h3>
-          <div class="email__form__container">
-            <div class="form__container">
-              <input type="email" class="email__input" placeholder=" " />
-              <label class="email__label">Email</label>
+          <div className="email__form__container">
+            <div className="form__container">
+              <input type="email" className="email__input" placeholder=" " />
+              <label className="email__label">Email</label>
             </div>
-            <button class="primary__button">
-              Comenzar <i class="fal fa-chevron-right"></i>
+            <button className="primary__button">
+              Comenzar <i className="fal fa-chevron-right"></i>
             </button>
           </div>
         </div>
